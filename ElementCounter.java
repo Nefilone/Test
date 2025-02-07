@@ -5,7 +5,7 @@ public class ElementCounter {
     public static void main(String[] args) {
         int[] array = {1, 3, 4, 5, 1, 5, 4};
         Map<Integer, Integer> result = countElements(array);
-        System.out.println(result); // {1=2, 3=1, 4=2, 5=2}
+        System.out.println(result);
     }
 
     public static Map<Integer, Integer> countElements(int[] array) {
